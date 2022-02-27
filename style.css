@@ -1,0 +1,48 @@
+body{
+  background-image: url("178926.jpg");
+  background-size: cover;  
+  background-position: center;
+  color: white;
+}
+h1{
+    background-color: cornsilk;
+   color: plum;
+
+}
+#Score_target{
+    float: left;
+    font-size: 30px;
+    color: rgb(200, 161, 231);
+    font-weight: bold;
+}
+#Time_count{
+    float: right;
+    font-size: 30px;
+    color: rgb(200, 161, 231);
+    font-weight: bold;
+}
+
+#sketch_Drawn{
+    color: rgb(184, 197, 255);
+}
+#show_sketch{
+float:right
+}
+canvas{
+    border: 5px dashed rgb(200, 161, 231);
+    animation-name:examples;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+    border-radius: 25px;
+    margin-top: 50px;
+
+
+}
+@keyframes examples{
+   from { box-shadow: 5px 5px 10px rgb(228, 93, 116);}
+to { box-shadow: 5px 5px 10px rgb(184, 197, 255);} 
+}
+p{
+    padding-top:10px;
+    font-size: 25px;
+}
